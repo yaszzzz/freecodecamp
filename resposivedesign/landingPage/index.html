@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EL Videographic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header id="header" class="pt-5">
+        <nav id="nav-bar" class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top " style="background-color: #933636; opacity:0.9;">
+        <div class="container-fluid ms-5 pb-1">
+            <img id="header-img" src="https://st2.depositphotos.com/2654883/5972/v/950/depositphotos_59724227-stock-illustration-beautiful-rounded-red-wing-angel.jpg" alt="Company Logo"  class="rounded-circle"/>
+          <a class="navbar-brand ps-3" href="#">EL Videographic</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item">
+                <a class="nav-link active" href="#features">Features</a>
+              </li>
+              <li class="nav-item">   
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       
+        <nav >
+           
+        </nav>
+    </header>
+    <main>
+        <section id="features" class="pt-3">
+            <h1>Amazing Videography Services</h1>
+            <br>
+            <div class="features-container">
+                <div class="feature-card">
+                    <img src="https://c1.wallpaperflare.com/preview/501/818/436/photography-gear-equipment-camera.jpg" alt="High-Quality Equipment" style="width:450px; height: 250px; border-radius:30%;">
+                    <h3 class="pt-3">High-Quality Equipment</h3>
+                    <p>We use state-of-the-art cameras and equipment to ensure the highest quality video production.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/364/854/488/digital-art-photoshop-concept-art-futuristic-wallpaper-preview.jpg" alt="Professional Editing" style="width:450px; height: 250px; border-radius:30%;" >
+                    <h3 class="pt-3">Professional Editing</h3>
+                    <p>Our team provides top-notch editing to make your videos stand out and look professional.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/457/443/825/lion-colorful-digital-art-animals-wallpaper-preview.jpg" alt="Creative Direction style=" style="width:450px; height: 250px; border-radius:30%;">
+                    <h3 class="pt-3">Creative Direction</h3>
+                    <p>We offer creative direction to help bring your vision to life with unique and engaging videos.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://c1.wallpaperflare.com/preview/907/452/946/color-in-the-sea-wedding-presets-lightroom.jpg" alt="Versatile Services" style="width:450px; height: 250px; border-radius:30%;">
+                    <h3 class="pt-3">Versatile Services</h3>
+                    <p>Whether it's a wedding, corporate event, or commercial, we cater to all types of videography needs.</p>
+                </div>
+                <div>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/XXTfi-5IfwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing Plans</h2>
+            <p>Choose a plan that fits your needs.</p>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>Basic Plan</h3>
+                    <p>Perfect for small events</p>
+                    <p class="price">$500</p>
+                    <ul>
+                        <li>Up to 2 hours of coverage</li>
+                        <li>Basic editing</li>
+                        <li>1 videographer</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Standard Plan</h3>
+                    <p>Great for medium-sized events</p>
+                    <p class="price">$1000</p>
+                    <ul>
+                        <li>Up to 5 hours of coverage</li>
+                        <li>Advanced editing</li>
+                        <li>2 videographers</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Premium Plan</h3>
+                    <p>Ideal for large events</p>
+                    <p class="price">$2000</p>
+                    <ul>
+                        <li>Full day coverage</li>
+                        <li>Professional editing</li>
+                        <li>3 videographers</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="me-auto ms-auto">
+            <h2>Get in Touch</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input name="email" type="email" id="email" placeholder="Enter your email" required>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Videographer Services. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>

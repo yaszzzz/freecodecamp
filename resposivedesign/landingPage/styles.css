@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+
+
+#header-img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 80px; /* To offset the fixed header */
+}
+
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+#email {
+    padding: 12px;
+    border: 2px solid #933636;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#submit {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #933636;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #ab6060;
+}
+/* Pricing Cards */
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.pricing-card h3 {
+    margin-top: 0;
+}
+
+.pricing-card .price {
+    font-size: 24px;
+    color: #933636;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    margin: 10px 0;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #cb9820;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding-top: 120px; /* Adjust padding for smaller screens */
+    }
+}
+

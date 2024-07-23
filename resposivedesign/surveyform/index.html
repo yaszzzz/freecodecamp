@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey form to help us understand your preferences.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name
+            <input id="name" type="text" placeholder="your name"/>
+        </label>
+        <label for="email" id="email-label" >Email
+        <input id="email" type="email" placeholder="your email"/>
+        </label>
+        <label for="number" id="number-label">Age
+            <input id="number" type="number" min="9" max="90" placeholder="your age"/>
+        </label>
+        <label for="dropdown">Select your favorite language:</label>
+        <select id="dropdown">
+            <option value="" disabled selected>Select an option</option>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select>
+    
+            <p>What is your preferred method of learning?</p>
+            <label for="self-learning"><input type="radio" id="self-learning" name="learning-method" value="self-learning" required/> Self-Learning</label>
+            
+            <label for="classroom"><input type="radio" id="Classroom" name="learning-method" value="Classroom" /> Classroom </label>
+            <p>Select your interests:</p>
+            <label for="web-development"><input type="checkbox" id="web-development" name="interest" value="web-development" /> Web Development </label>
+            <label for="data-science"><input type="checkbox" id="data-science" name="interest" value="data-science"  /> Data Science </label>
+            <label for="machine-learning"><input type="checkbox" id="machine-learning" name="interest" value="machine-learning"  /> Machine Learning</label>
+            <label for="comments">Additional comments:
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+            </label>
+       
+            <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>

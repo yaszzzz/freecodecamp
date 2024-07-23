@@ -1,0 +1,132 @@
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+  background-position: left;
+    background-size: cover;
+    height: 100vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/718/944/928/minimalism-geometry-triangle-nebula-wallpaper-preview.jpg");
+  }c
+
+  /* Basic styling for sections */
+  .section {
+    padding: 80px 20px; /* Adjust padding to your liking */
+    text-align: center;
+  }
+  
+  /* Styling for Navbar */
+  
+  /* Styling for Welcome Section */
+  #welcome-section {
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  #welcome-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for Projects Section */
+  #projects {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/718/944/928/minimalism-geometry-triangle-nebula-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size:cover;
+   
+    align-items: center;
+  }
+  
+  
+  
+  /* Styling for Contact Section */
+  #contact {
+    background-color: #f2f2f2;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  #contact form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact form input, #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contact form button:hover {
+    background-color: #0056b3;
+  }
+  
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+.project-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card .price {
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+.project-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-card ul li {
+  margin: 10px 0;
+}
+
+.contact-me{
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .section {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  #navbar {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+}
